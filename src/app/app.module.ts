@@ -4,13 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { SeriesComponent } from './series/series.component';
+import { CardComponent } from './components/card/card.component';
+import { SeriesComponent } from "./pages/series/series.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    CardComponent,
     SeriesComponent
+
   ],
   imports: [
     BrowserModule,
